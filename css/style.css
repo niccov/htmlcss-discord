@@ -136,20 +136,21 @@
     border-color: #41568B;
 }
 
+#buttons button:last-child a{
+    color: white;
+}
+
 #buttons button a{
     text-decoration: none;
     color: black; 
 }
 
-#buttons button:last-child a{
-    color: white;
-}
 /* /section1 */
 
 /* section2 */
 .section2{
     height: 600px;
-    background-color: rgb(108, 209, 242);
+    background-color: white;
     /* test */
     display: flex;
     justify-content: center;
@@ -157,10 +158,12 @@
 
 .img-s2{
     height: 600px;
-    width: 550px;
-    /* test */
-    background-color: rgb(226, 106, 242);
-    border: 1px solid black;
+   
+    margin-top: 70px;
+}
+
+.img-s2 img{
+    min-width: 678px;  
 }
 
 .aside-s2{
@@ -185,6 +188,11 @@
     background-color: antiquewhite;
     border: 1px solid black;
 
+}
+
+#titol-s2 h2{
+    font-size: 30px;
+    text-align: left;
 }
 
 #paragraph-s2{
