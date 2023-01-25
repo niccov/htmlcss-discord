@@ -100,7 +100,8 @@
 
 #titol-s1 h1{
     color: white;
-    font-size: 32px;
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #paragraph-s1{
@@ -111,6 +112,7 @@
 #paragraph-s1 p{
     color: white;
     font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: center;
     padding: 5px;
 }
@@ -161,7 +163,7 @@
 
 .img-s2{
     height: 600px;
-    width: 70%;
+    max-width: 70%;
     margin-top: 70px;
 }
 
@@ -182,9 +184,8 @@
     
 }
 
-#titol-s2{
-    
-    
+#titol-s2{ 
+    max-height: 3000px;
 }
 
 #titol-s2 h2{
@@ -203,8 +204,8 @@
 
 /* wave */
 .container-img img{
-    opacity: 0.05;
-    
+    opacity: 0.04;
+    display: block;
 }
 /* /wave */
 
@@ -266,14 +267,15 @@
 
 .container-img2 img{
     transform: rotate(180deg);
-    opacity: 0.05;
+    opacity: 0.04;
+    display: block;
 }
 /* /wave */
 
 /* section4 */
 .section4{
     height: 650px;
-    background-color: rgb(108, 209, 242);
+    background-color: white;
     /* test */
     display: flex;
     justify-content: center;
@@ -282,18 +284,18 @@
 .img-s4{
     height: 650px;
     width: 730px;
-    /* test */
-    background-color: antiquewhite;
-    border: 1px solid black;
+}
+
+.img-s4 img{
+    margin-top: 160px;
+    margin-left: 180px;
+    max-width: 540px;
 }
 
 .aside-s4{
     height: 650px;
     width: 570px;
-
-    background-color: antiquewhite;
-    border: 1px solid black;
-
+    margin-right: 70px;
     /* test */
     display: flex;
     flex-direction: column;
@@ -305,26 +307,38 @@
 #titol-s4{
     height: 120px;
     width: 360px;
-    /* test */
-    background-color: rgb(240, 79, 68);
-    border: 1px solid black;
 
+    margin-bottom: 30px;
+}
+
+#titol-s4 h2{
+    font-size: 45px;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #paragraph-s4{
     height: 150px;
     width: 400px;
-    /* test */
-    background-color: rgb(240, 79, 68);
-    border: 1px solid black;
+}
+
+#paragraph-s4 p{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 /* /section4 */
+
+/* wave */
+.container-img3 img{
+    opacity: 0.04;
+    display: block;
+}
+/* /wave */
 
 /* section5 */
 .section5{
     height: 1150px;
-    /* test */
-    background-color: aqua;
+    background-color: #F6F6F6;
 }
 
 .article-s5{
@@ -341,17 +355,24 @@
 #titol-s5{
     height: 70px;
     width: 850px;
-    /* test */
-    background-color: blue;
-    border: 1px solid black;
+    
+    margin-bottom: 30px;
+}
+
+#titol-s5 h2{
+    font-size: 45px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #paragraph-s5{
     height: 60px;
     width: 850px;
-    /* test */
-    background-color: blue;
-    border: 1px solid black;
+}
+
+#paragraph-s5 p{
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 .container-img-s5{
@@ -367,12 +388,15 @@
     height: 530px;
     width: 1000px;
 
-    background-color: blueviolet;
-    border: 1px solid black;
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+#img-s5 img{
+    max-width: 800px;
 }
 
 .section-below{
-    height: 300px;
     /* test */
     display: flex;
     align-items: center;
@@ -383,31 +407,48 @@
 .container-s5{
     height: 170px;
     width: 550px;
-    /* test */
-    background-color: blue;
-    border: 1px solid black;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+}
+
+#stelline-s5 img{
+   
 }
 
 #on-button{
     height: 40px;
     width: 420px;
-    /* test */
-    background-color: blueviolet;
-    border: 1px solid black;
+
+}
+
+#on-button h4{
+    font-size: 27px;
 }
 
 #button{
     height: 45px;
     width: 180px;
     /* test */
-    background-color: blueviolet;
-    border: 1px solid black;
+
+}
+
+#button button{
+    border-radius: 25px;
+    border-color: #BEC8EA;
+    background-color: #7289DA;
+    padding: 7px 18px;
+}
+
+#button button a{
+    text-decoration: none;
+    color: white; 
+}
+
+#button span{
+    color: white;
 }
 /* /section5 */
 /* /main */
