@@ -454,59 +454,101 @@
 /* /main */
 
 /* footer */
+.footer{
+    background-color: #23272A;
+}
 .container-footer{
-    height: 550px;
-    background-color: chartreuse;
+    height: 300px;
+    width: 1000px;
+    margin: auto; 
 
     display: flex;
-    justify-content: space-around;
-    
- 
+    flex-direction: column;
+    justify-content: center;
+   
 }
 
-.container-footer ul{
+.inner-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-row1{
+    max-width: 220px;
+}
+
+.inner-row1 p{
+    font-size: 20px;
+    
+    color: #7189DA;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.inner-row1 img{
+    max-width: 25px;
+}
+
+.language{
+    margin-bottom: 10px;
+}
+
+.inner-row2{
+    
+    max-width: 650px; 
+
+    display: flex;
+    gap: 150px;
+}
+
+.inner-row2 ul{
     list-style-type: none;
 }
 
-.row-1 li{
-    height: 50px;
-    width: 190px;
-
-    background-color: green;
-    border: 1px solid black;
+.inner-row2 li{
+    width: 40px;
+    height: 20px;
 }
 
-.row-2 li{
-    height: 50px;
-    width: 190px;
-
-    background-color: green;
-    border: 1px solid black;
+.inner-row2 li a{
+    text-decoration: none;
+    color: white;
 }
 
-.row-3 li{
-    height: 50px;
-    width: 190px;
-
-    background-color: green;
-    border: 1px solid black;
+.inner-row2 li:first-child{
+    color: #7189DA;
 }
 
-.row-4 li{
-    height: 50px;
-    width: 190px;
+.inner-footer2{
+    border-top: 1px solid white;
+    margin-top: 10px;
 
-    background-color: green;
-    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
 }
 
-.row-5 li{
-    height: 50px;
-    width: 190px;
-
-    background-color: green;
-    border: 1px solid black;
+#logo-footer{
+    margin-top: 10px;
 }
 
+#logo-footer img{
+    min-width: 18px;
+}
 
+#button-footer{
+    margin-top: 10px;
+}
+
+#button-footer button{
+    background-color: #7189DA;
+    border-radius: 25px;
+    border-color: #7189DA;
+    padding: 4px 10px;
+}
+
+#button-footer button a{
+    color: white;
+    text-decoration: none;
+}
 /* /footer */
